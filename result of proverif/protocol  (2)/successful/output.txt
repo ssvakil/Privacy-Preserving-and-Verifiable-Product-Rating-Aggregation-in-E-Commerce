@@ -1,0 +1,186 @@
+Completing equations...
+Completing equations...
+-- Process 1-- Weak secret PAB in process 1
+Translating the process into Horn clauses...
+Termination warning: v ≠ v_1 && attacker_guess(v_2,v) && attacker_guess(v_2,v_1) -> bad
+Selecting 0
+Termination warning: v ≠ v_1 && attacker_guess(v,v_2) && attacker_guess(v_1,v_2) -> bad
+Selecting 0
+select attacker(enc(challengeB_8,exp(dec(*m1_4,h(PAA[])),RA[!1 = *@sid])))/-5000
+select attacker(enc(challengeB_8,exp(dec(*m1_4,h(PBB[])),RA_1[!1 = *@sid])))/-5000
+select attacker(enc(challengeB_8,exp(dec(*m1_4,h(PAB[])),RA_2[!1 = *@sid])))/-5000
+select attacker(enc(challengeB_8,exp(dec(*m1_4,h(PAB[])),RA_3[!1 = *@sid])))/-5000
+Completing...
+Termination warning: v ≠ v_1 && attacker_guess(v_2,v) && attacker_guess(v_2,v_1) -> bad
+Selecting 0
+Termination warning: v ≠ v_1 && attacker_guess(v,v_2) && attacker_guess(v_1,v_2) -> bad
+Selecting 0
+Termination warning: v ≠ v_1 && attacker(v) && attacker_guess(v,v_1) -> bad
+Selecting 1
+Termination warning: v ≠ v_1 && attacker(v) && attacker_guess(v_1,v) -> bad
+Selecting 1
+select attacker(enc(challengeB_8,exp(exp(g,RA[!1 = *@sid]),RA[!1 = *@sid_1])))/-5000
+200 rules inserted. Base: 199 rules (66 with conclusion selected). Queue: 231 rules.
+select attacker(enc(challengeB_8,exp(exp(g,RA[!1 = *@sid]),RB[m = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB[m = *m_4,!1 = *@sid]),RA[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_1[!1 = *@sid]),RA_1[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_1[!1 = *@sid]),RB_1[m_1 = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB_1[m_1 = *m_4,!1 = *@sid]),RA_1[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_2[!1 = *@sid]),RA_2[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_2[!1 = *@sid]),RB_2[m_2 = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB_2[m_2 = *m_4,!1 = *@sid]),RA_2[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_2[!1 = *@sid]),RA_3[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_3[!1 = *@sid]),RA_2[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_3[!1 = *@sid]),RA_3[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_3[!1 = *@sid]),RB_2[m_2 = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB_2[m_2 = *m_4,!1 = *@sid]),RA_3[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_3[!1 = *@sid]),RB_3[m_3 = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_2[!1 = *@sid]),RB_3[m_3 = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB_3[m_3 = *m_4,!1 = *@sid]),RA_3[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB_3[m_3 = *m_4,!1 = *@sid]),RA_2[!1 = *@sid_1])))/-5000
+400 rules inserted. Base: 399 rules (133 with conclusion selected). Queue: 585 rules.
+600 rules inserted. Base: 592 rules (133 with conclusion selected). Queue: 1041 rules.
+800 rules inserted. Base: 787 rules (133 with conclusion selected). Queue: 1410 rules.
+1000 rules inserted. Base: 987 rules (133 with conclusion selected). Queue: 1545 rules.
+1200 rules inserted. Base: 1185 rules (133 with conclusion selected). Queue: 1409 rules.
+1400 rules inserted. Base: 1383 rules (133 with conclusion selected). Queue: 1273 rules.
+1600 rules inserted. Base: 1580 rules (133 with conclusion selected). Queue: 1125 rules.
+1800 rules inserted. Base: 1779 rules (133 with conclusion selected). Queue: 987 rules.
+2000 rules inserted. Base: 1975 rules (133 with conclusion selected). Queue: 868 rules.
+2200 rules inserted. Base: 1663 rules (137 with conclusion selected). Queue: 501 rules.
+2400 rules inserted. Base: 1863 rules (137 with conclusion selected). Queue: 387 rules.
+2600 rules inserted. Base: 2031 rules (151 with conclusion selected). Queue: 346 rules.
+2800 rules inserted. Base: 2218 rules (153 with conclusion selected). Queue: 256 rules.
+3000 rules inserted. Base: 2394 rules (153 with conclusion selected). Queue: 215 rules.
+3200 rules inserted. Base: 2591 rules (153 with conclusion selected). Queue: 93 rules.
+3400 rules inserted. Base: 2762 rules (165 with conclusion selected). Queue: 149 rules.
+3600 rules inserted. Base: 2962 rules (165 with conclusion selected). Queue: 51 rules.
+RESULT Weak secret PAB is true.
+-- Weak secret PAA in process 1
+Translating the process into Horn clauses...
+Termination warning: v ≠ v_1 && attacker_guess(v_2,v) && attacker_guess(v_2,v_1) -> bad
+Selecting 0
+Termination warning: v ≠ v_1 && attacker_guess(v,v_2) && attacker_guess(v_1,v_2) -> bad
+Selecting 0
+select attacker(enc(challengeB_8,exp(dec(*m1_4,h(PAA[])),RA[!1 = *@sid])))/-5000
+select attacker(enc(challengeB_8,exp(dec(*m1_4,h(PBB[])),RA_1[!1 = *@sid])))/-5000
+select attacker(enc(challengeB_8,exp(dec(*m1_4,h(PAB[])),RA_2[!1 = *@sid])))/-5000
+select attacker(enc(challengeB_8,exp(dec(*m1_4,h(PAB[])),RA_3[!1 = *@sid])))/-5000
+Completing...
+Termination warning: v ≠ v_1 && attacker_guess(v_2,v) && attacker_guess(v_2,v_1) -> bad
+Selecting 0
+Termination warning: v ≠ v_1 && attacker_guess(v,v_2) && attacker_guess(v_1,v_2) -> bad
+Selecting 0
+Termination warning: v ≠ v_1 && attacker(v) && attacker_guess(v,v_1) -> bad
+Selecting 1
+Termination warning: v ≠ v_1 && attacker(v) && attacker_guess(v_1,v) -> bad
+Selecting 1
+select attacker(enc(challengeB_8,exp(exp(g,RA[!1 = *@sid]),RA[!1 = *@sid_1])))/-5000
+200 rules inserted. Base: 199 rules (66 with conclusion selected). Queue: 227 rules.
+select attacker(enc(challengeB_8,exp(exp(g,RA[!1 = *@sid]),RB[m = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB[m = *m_4,!1 = *@sid]),RA[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_1[!1 = *@sid]),RA_1[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_1[!1 = *@sid]),RB_1[m_1 = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB_1[m_1 = *m_4,!1 = *@sid]),RA_1[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_2[!1 = *@sid]),RA_2[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_2[!1 = *@sid]),RB_2[m_2 = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB_2[m_2 = *m_4,!1 = *@sid]),RA_2[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_2[!1 = *@sid]),RA_3[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_3[!1 = *@sid]),RA_2[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_3[!1 = *@sid]),RA_3[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_3[!1 = *@sid]),RB_2[m_2 = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB_2[m_2 = *m_4,!1 = *@sid]),RA_3[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_3[!1 = *@sid]),RB_3[m_3 = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_2[!1 = *@sid]),RB_3[m_3 = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB_3[m_3 = *m_4,!1 = *@sid]),RA_3[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB_3[m_3 = *m_4,!1 = *@sid]),RA_2[!1 = *@sid_1])))/-5000
+400 rules inserted. Base: 399 rules (133 with conclusion selected). Queue: 596 rules.
+600 rules inserted. Base: 592 rules (133 with conclusion selected). Queue: 1038 rules.
+800 rules inserted. Base: 787 rules (133 with conclusion selected). Queue: 1379 rules.
+1000 rules inserted. Base: 987 rules (133 with conclusion selected). Queue: 1553 rules.
+1200 rules inserted. Base: 1185 rules (133 with conclusion selected). Queue: 1413 rules.
+1400 rules inserted. Base: 1383 rules (133 with conclusion selected). Queue: 1277 rules.
+1600 rules inserted. Base: 1580 rules (133 with conclusion selected). Queue: 1130 rules.
+1800 rules inserted. Base: 1779 rules (133 with conclusion selected). Queue: 993 rules.
+2000 rules inserted. Base: 1975 rules (133 with conclusion selected). Queue: 871 rules.
+2200 rules inserted. Base: 2038 rules (135 with conclusion selected). Queue: 724 rules.
+2400 rules inserted. Base: 2238 rules (135 with conclusion selected). Queue: 627 rules.
+2600 rules inserted. Base: 2438 rules (139 with conclusion selected). Queue: 525 rules.
+2800 rules inserted. Base: 2638 rules (147 with conclusion selected). Queue: 449 rules.
+3000 rules inserted. Base: 2814 rules (149 with conclusion selected). Queue: 352 rules.
+3200 rules inserted. Base: 3001 rules (149 with conclusion selected). Queue: 320 rules.
+3400 rules inserted. Base: 3190 rules (149 with conclusion selected). Queue: 223 rules.
+3600 rules inserted. Base: 3385 rules (149 with conclusion selected). Queue: 114 rules.
+3800 rules inserted. Base: 3558 rules (161 with conclusion selected). Queue: 194 rules.
+4000 rules inserted. Base: 3758 rules (161 with conclusion selected). Queue: 133 rules.
+RESULT Weak secret PAA is true.
+-- Weak secret PBB in process 1
+Translating the process into Horn clauses...
+Termination warning: v ≠ v_1 && attacker_guess(v_2,v) && attacker_guess(v_2,v_1) -> bad
+Selecting 0
+Termination warning: v ≠ v_1 && attacker_guess(v,v_2) && attacker_guess(v_1,v_2) -> bad
+Selecting 0
+select attacker(enc(challengeB_8,exp(dec(*m1_4,h(PAA[])),RA[!1 = *@sid])))/-5000
+select attacker(enc(challengeB_8,exp(dec(*m1_4,h(PBB[])),RA_1[!1 = *@sid])))/-5000
+select attacker(enc(challengeB_8,exp(dec(*m1_4,h(PAB[])),RA_2[!1 = *@sid])))/-5000
+select attacker(enc(challengeB_8,exp(dec(*m1_4,h(PAB[])),RA_3[!1 = *@sid])))/-5000
+Completing...
+Termination warning: v ≠ v_1 && attacker_guess(v_2,v) && attacker_guess(v_2,v_1) -> bad
+Selecting 0
+Termination warning: v ≠ v_1 && attacker_guess(v,v_2) && attacker_guess(v_1,v_2) -> bad
+Selecting 0
+Termination warning: v ≠ v_1 && attacker(v) && attacker_guess(v,v_1) -> bad
+Selecting 1
+Termination warning: v ≠ v_1 && attacker(v) && attacker_guess(v_1,v) -> bad
+Selecting 1
+select attacker(enc(challengeB_8,exp(exp(g,RA[!1 = *@sid]),RA[!1 = *@sid_1])))/-5000
+200 rules inserted. Base: 199 rules (66 with conclusion selected). Queue: 231 rules.
+select attacker(enc(challengeB_8,exp(exp(g,RA[!1 = *@sid]),RB[m = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB[m = *m_4,!1 = *@sid]),RA[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_1[!1 = *@sid]),RA_1[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_1[!1 = *@sid]),RB_1[m_1 = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB_1[m_1 = *m_4,!1 = *@sid]),RA_1[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_2[!1 = *@sid]),RA_2[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_2[!1 = *@sid]),RB_2[m_2 = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB_2[m_2 = *m_4,!1 = *@sid]),RA_2[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_2[!1 = *@sid]),RA_3[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_3[!1 = *@sid]),RA_2[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_3[!1 = *@sid]),RA_3[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_3[!1 = *@sid]),RB_2[m_2 = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB_2[m_2 = *m_4,!1 = *@sid]),RA_3[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_3[!1 = *@sid]),RB_3[m_3 = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RA_2[!1 = *@sid]),RB_3[m_3 = *m_4,!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB_3[m_3 = *m_4,!1 = *@sid]),RA_3[!1 = *@sid_1])))/-5000
+select attacker(enc(challengeB_8,exp(exp(g,RB_3[m_3 = *m_4,!1 = *@sid]),RA_2[!1 = *@sid_1])))/-5000
+400 rules inserted. Base: 399 rules (133 with conclusion selected). Queue: 592 rules.
+600 rules inserted. Base: 592 rules (133 with conclusion selected). Queue: 1038 rules.
+800 rules inserted. Base: 787 rules (133 with conclusion selected). Queue: 1379 rules.
+1000 rules inserted. Base: 987 rules (133 with conclusion selected). Queue: 1553 rules.
+1200 rules inserted. Base: 1185 rules (133 with conclusion selected). Queue: 1413 rules.
+1400 rules inserted. Base: 1383 rules (133 with conclusion selected). Queue: 1277 rules.
+1600 rules inserted. Base: 1580 rules (133 with conclusion selected). Queue: 1130 rules.
+1800 rules inserted. Base: 1779 rules (133 with conclusion selected). Queue: 993 rules.
+2000 rules inserted. Base: 1975 rules (133 with conclusion selected). Queue: 871 rules.
+2200 rules inserted. Base: 2038 rules (135 with conclusion selected). Queue: 724 rules.
+2400 rules inserted. Base: 2238 rules (135 with conclusion selected). Queue: 622 rules.
+2600 rules inserted. Base: 2438 rules (139 with conclusion selected). Queue: 525 rules.
+2800 rules inserted. Base: 2638 rules (147 with conclusion selected). Queue: 449 rules.
+3000 rules inserted. Base: 2814 rules (149 with conclusion selected). Queue: 352 rules.
+3200 rules inserted. Base: 3001 rules (149 with conclusion selected). Queue: 320 rules.
+3400 rules inserted. Base: 3190 rules (149 with conclusion selected). Queue: 222 rules.
+3600 rules inserted. Base: 3385 rules (149 with conclusion selected). Queue: 114 rules.
+3800 rules inserted. Base: 3558 rules (161 with conclusion selected). Queue: 194 rules.
+4000 rules inserted. Base: 3758 rules (161 with conclusion selected). Queue: 133 rules.
+RESULT Weak secret PBB is true.
+
+--------------------------------------------------------------
+Verification summary:
+
+Weak secret PAB is true.
+
+Weak secret PAA is true.
+
+Weak secret PBB is true.
+
+--------------------------------------------------------------
+
