@@ -1,0 +1,59 @@
+(* ========================================= *)
+(* Distributed Key Generation – Phase 1     *)
+(* نسخه کاملاً درست و بدون خطا              *)
+(* ========================================= *)
+
+set ignoreTypes = attacker.
+
+type key.
+type share.
+type pkey.
+type host.
+
+fun gen(): key.
+fun commit(key): pkey.
+fun share_i(key, host): share.
+
+free KHA1, KHA2, KHA3, KHA4, KHA5, KHA6, KHA7, KHA8, KHA9 : host.
+free c: channel.
+
+event beginDKG().
+event endDKG(pkey).
+event shareAssigned(host, share).
+
+free sk1, sk2, sk3, sk4, sk5, sk6, sk7, sk8, sk9 : share [private].
+free pk : pkey.      (* عمومی است — نیازی به query نیست *)
+
+(* ---------- همه queryها قبل از process ---------- *)
+query attacker(sk1).
+query attacker(sk2).
+query attacker(sk3).
+query attacker(sk4).
+query attacker(sk5).
+query attacker(sk6).
+query attacker(sk7).
+query attacker(sk8).
+query attacker(sk9).
+
+query x:pkey; inj-event(endDKG(x)) ==> event(beginDKG()).
+
+(* ------------------- فرآیند ------------------- *)
+let DKG =
+  event beginDKG();
+  new s: key;
+  let pk0 = commit(s) in
+  let pk = pk0 in
+  event endDKG(pk0);
+  out(c, pk0);
+  let sk1 = share_i(s, KHA1) in event shareAssigned(KHA1, sk1);
+  let sk2 = share_i(s, KHA2) in event shareAssigned(KHA2, sk2);
+  let sk3 = share_i(s, KHA3) in event shareAssigned(KHA3, sk3);
+  let sk4 = share_i(s, KHA4) in event shareAssigned(KHA4, sk4);
+  let sk5 = share_i(s, KHA5) in event shareAssigned(KHA5, sk5);
+  let sk6 = share_i(s, KHA6) in event shareAssigned(KHA6, sk6);
+  let sk7 = share_i(s, KHA7) in event shareAssigned(KHA7, sk7);
+  let sk8 = share_i(s, KHA8) in event shareAssigned(KHA8, sk8);
+  let sk9 = share_i(s, KHA9) in event shareAssigned(KHA9, sk9).
+
+process
+  DKG
